@@ -1,0 +1,137 @@
+body
+{
+	background:rgb(255, 222, 255);
+	color:rgb(111, 88, 88);
+	font-family:'Open Sans';
+	text-align:center;
+
+}
+
+nav
+{
+	background: rgb(255, 222, 255);
+	border-bottom: 1px solid rgb(111, 88, 88);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.link 
+{
+	color: rgb(111, 88, 88);
+}
+
+
+.MainMenu
+{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.MainMenu-item
+{
+	display:inline-block;
+}
+
+.map
+{
+	width:300px;
+	height:200px;
+}
+
+.map-Hoteles
+{
+width:300px;
+height:200px;	
+}
+
+.MainMenu-link
+{
+	color:rgb(162, 4, 187);
+	font-size: .7em;
+	text-decoration: none;
+	margin-right: .5em;
+}
+
+.tam
+{
+	height:100%;
+
+}
+
+.title
+{
+	color:rgb(162, 4, 187);
+	font-family:'Pacifico';
+	padding-top: .9em;
+}
+
+@media screen and (min-width: 600px){
+
+	body
+	{
+		/*background-color:red;*/
+	}
+
+	h1
+	{
+		font-size: 4em;
+	}
+
+	h2
+	{
+		font-size: 3em;
+	}
+
+	nav
+	{
+		border-bottom: 0;
+	}
+	p 
+	{
+		font-size: 1.5em;
+		margin:0 auto;
+		text-align: center;
+		width:50%;
+	}
+
+	nav
+	{
+		text-align: right;
+		font-size: 1.5em;
+	}
+
+	.con
+	{
+		display: inline-block;	
+	}
+
+	.MainMenu-link
+	{
+		font-size: .8em;
+		margin-right: .8em;
+	}
+
+	.map
+	{
+		width:600px;
+		height:400px;
+	}
+
+	.map-Hoteles
+	{
+		width:500px;
+		height:400px;	
+	}
+
+	.tam
+	{
+		display: inline-block;
+		height:500px;
+		width: 100%;
+		padding-top:100px;
+	}
+
+
+}
